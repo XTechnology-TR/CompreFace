@@ -20,7 +20,7 @@ gdown==4.5.4
 google-auth==1.35.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
-grpcio==1.57.0
+grpcio==1.58.3
 h5py==2.10.0
 idna==3.4
 imageio==2.31.1
