@@ -5,6 +5,6 @@ COPY . .
 #nothing is needed here so far
 RUN echo "Hello from dev docker"
 #RUN rm /etc/nginx/conf.d/default.conf
-FROM nginx:1.19.0
+FROM nginx:1.28.1
 RUN rm /etc/nginx/conf.d/default.conf
 COPY --from=build /usr/src/app/nginx/ /etc/nginx/
